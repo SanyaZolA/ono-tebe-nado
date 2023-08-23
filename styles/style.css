@@ -73,16 +73,16 @@
 
 .cover__title {
   position: relative;
+  z-index: 2;
   display: grid;
+  justify-items: center;
   row-gap: 20px;
   padding-top: 165px;
   padding-left: 50px;
-  z-index: 2;
   color: white;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
-  justify-items: center;
 }
 
 .aligned-text {
@@ -119,13 +119,13 @@
 .cover__description {
   position: relative;
   z-index: 2;
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  color: white;
+  margin-top: 100px;
   padding-right: 50px;
+  color: white;
 }
 .cover__description-text {
   color: #FFF;
@@ -161,8 +161,9 @@
 }
 
 .lots {
-  min-width: 1340px;
-  margin: 0 50px 181px 50px;
+  min-width: 1440px;
+  margin: 0 auto 181px auto;
+  padding-left: 50px;
 }
 
 .lots__heading {
@@ -205,9 +206,6 @@
 
 .lots__card-list-item {
   position: relative;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -216,6 +214,9 @@
   width: 430px;
   height: 100%;
   color: white;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 .card__title {
   justify-content: center;
@@ -251,9 +252,9 @@
 
 .about {
   display: flex;
-  width: 1340px;
-  margin-bottom: 180px;
-  margin-left: 50px;
+  min-width: 1440px;
+  margin: 0 auto 180px auto;
+  padding-left: 50px;
 }
 
 .about__column {
