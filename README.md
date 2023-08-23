@@ -1,4 +1,5 @@
-# Проект первого модуля ["ОНО ТЕБЕ НАДО"](https://sanyazola.github.io/ono-tebe-nado/).
+# Проект первого модуля ["ОНО ТЕБЕ НАДО"](https://github.com/SanyaZolA/ono-tebe-nado).
+Ссылка на ["сайт"](https://sanyazola.github.io/ono-tebe-nado/).
 
 В проекте кликабельны **ссылки**, оформлена структура через **flexbox** и **grid**.
 
