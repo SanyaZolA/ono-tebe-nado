@@ -1,14 +1,1 @@
-# Проект первого модуля ["ОНО ТЕБЕ НАДО"](https://github.com/SanyaZolA/ono-tebe-nado).
-Ссылка на ["сайт"](https://sanyazola.github.io/ono-tebe-nado/).
-
-В проекте кликабельны **ссылки**, оформлена структура через **flexbox** и **grid**.
-
-## В реализации использовались такие технологии:
-
-- flexbox;
-
-- grid;
-
-- структуры БЭМ классов;
-
-- добавление изображения через src;
+https://github.com/SanyaZolA/ono-tebe-nado
