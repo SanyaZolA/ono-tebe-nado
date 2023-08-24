@@ -29,7 +29,7 @@
   height: 105px;
 }
 
-.address__list {
+.header__address-list, .footer__address-list {
   justify-self: end;
   width: 240px;
   font-weight: 400;
