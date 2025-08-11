@@ -1,6 +1,4 @@
-# ![](./images/logo-ico.ico) *Оно тебе надо*
-
-**Оно тебе надо** — Интернет страница аукциона.
+# Проект первого модуля ["Оно тебе надо"](https://sanyazola.github.io/ono-tebe-nado/).
 
 [Демо-страница](https://sanyazola.github.io/ono-tebe-nado/)
 
