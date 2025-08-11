@@ -29,7 +29,8 @@
   height: 105px;
 }
 
-.header__address-list, .footer__address-list {
+.header__address-list,
+.footer__address-list {
   justify-self: end;
   width: 240px;
   font-weight: 400;
@@ -56,7 +57,7 @@
   width: 100%;
   min-width: 1340px;
   min-height: 757px;
-  margin: 92px auto 180px auto;
+  margin: 92px auto 180px;
   background-image: url(../images/cover.jpg);
   background-repeat: repeat;
   background-size: cover;
@@ -67,7 +68,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  opacity: .6;
+  opacity: 0.6;
   background-color: #000;
 }
 
@@ -92,6 +93,7 @@
   line-height: 115%;
   letter-spacing: 30px;
 }
+
 .aligned-text_center {
   position: relative;
   width: 1340px;
@@ -100,6 +102,7 @@
   letter-spacing: 30px;
   text-align: center;
 }
+
 .aligned-text_right {
   position: relative;
   width: 1340px;
@@ -127,8 +130,9 @@
   padding-right: 50px;
   color: white;
 }
+
 .cover__description-text {
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -156,13 +160,14 @@
 .bet-button:hover {
   opacity: 0.7;
 }
+
 .bet-button:active {
   opacity: 0.5;
 }
 
 .lots {
   min-width: 1440px;
-  margin: 0 auto 181px auto;
+  margin: 0 auto 181px;
   padding-left: 50px;
 }
 
@@ -201,7 +206,7 @@
 }
 
 .card_type_picture {
-  background-image: url(../images/card-lot-03.jpg );
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__card-list-item {
@@ -218,10 +223,11 @@
   background-position: center;
   background-size: cover;
 }
+
 .card__title {
   justify-content: center;
   align-items: flex-end;
-  margin: 50px 40px 0 40px;
+  margin: 50px 40px 0;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
@@ -234,7 +240,7 @@
   display: inline;
   justify-content: center;
   align-items: flex-end;
-  margin: 0 40px 50px 40px;
+  margin: 0 40px 50px;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -253,7 +259,7 @@
 .about {
   display: flex;
   min-width: 1440px;
-  margin: 0 auto 180px auto;
+  margin: 0 auto 180px;
   padding-left: 50px;
 }
 
@@ -270,7 +276,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 0px 95px;
+  margin: 0 95px;
   border-radius: 50%;
   background-color: #000;
 }
@@ -303,7 +309,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 0 50px 90px 50px;
+  margin: 0 50px 90px;
 }
 
 .footer__social-list {
